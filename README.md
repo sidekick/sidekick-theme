@@ -1,0 +1,4 @@
+sidekick
+========
+
+Sidekick Theme
