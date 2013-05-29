@@ -8,13 +8,13 @@
   "authors":           [
     {
       "name":     "Okechukwu Ugwu",
-      "email":    "fobilow@gmail.com",
+      "email":    "fobilow@gmail.com"
 
     }
   ],
   "require":           {
     "php":                   ">=5.4.0",
-    "cubex/cubex":           "*",
+    "cubex/cubex":           "*"
 
   },
   "autoload":          {
