@@ -1,0 +1,79 @@
+h1, h3 {
+  padding: 0;
+  margin:  0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.container {
+  height: 100%;
+}
+
+.well {
+  padding: 10px;
+}
+
+.boxed {
+  width: 800px;
+}
+
+.boxed h3, .boxed p {
+  margin:  0;
+  padding: 0;
+}
+
+.alerts, .breadcrumb {
+  width: 800px;
+}
+
+.breadcrumb {
+  background-color: #ccc;
+}
+
+span.divider {
+  color: #000 !important;
+}
+
+.cushion {
+  padding: 10px;
+}
+
+.sidebar, .content {
+  display: table-cell;
+  border-right: 1px solid #DDDDDD;
+}
+.sidebar {
+  width:        200px;
+}
+
+.content {
+  width:            860px;
+  background-color: #eee;
+  border-top:       1px solid #DDDDDD;
+  border-bottom:    1px solid #DDDDDD;
+  vertical-align: top;
+
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding:    10px;
+}
+
+.nav-tabs {
+  width: 100%;
+}
+
+.active a {
+  font-weight:      bold;
+  background-color: #eee !important;
+}
+

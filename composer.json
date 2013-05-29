@@ -1,0 +1,11 @@
+{
+  "require": {
+    "cubex/cubex":         "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cubex\\": "C:\\Websites\\qbex\\Cubex\\src\\"
+    }
+  },
+  "minimum-stability": "dev"
+}

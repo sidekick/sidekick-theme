@@ -1,0 +1,75 @@
+/*
+OVERRIDES
+---------
+Fix a few issues from boostrap.
+*/
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: auto;
+}
+
+.lt-ie8 ul.inline > li,
+.lt-ie8 ol.inline > li {
+  display: inline;
+  zoom: 1;
+}
+
+.lt-ie8 .nav > li > a:hover {
+  cursor: pointer;
+}
+
+ul.thumbnails li.span3:nth-child(4n + 1) {
+  clear: left;
+}
+
+ul.thumbnails li.span4:nth-child(3n + 1) {
+  clear: left;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  -webkit-transition: border linear 0s;
+  -moz-transition: border linear 0s;
+  -o-transition: border linear 0s;
+  transition: border linear 0s;
+  -webkit-transition: border-color linear 0.2s;
+  -moz-transition: border-color linear 0.2s;
+  -o-transition: border-color linear 0.2s;
+  transition: border-color linear 0.2s;
+}
+
+/*
+HELPERS
+-------
+Useful classes for dealing with things that happen fairly often.
+*/
+.strtoupper {
+  text-transform: uppercase;
+}
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
