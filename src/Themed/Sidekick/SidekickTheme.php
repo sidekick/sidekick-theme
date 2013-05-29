@@ -3,7 +3,7 @@
  * @author oke.ugwu
  */
 
-namespace Themes\Sidekick;
+namespace Themed\Sidekick;
 
 use Cubex\Theme\BaseTheme;
 

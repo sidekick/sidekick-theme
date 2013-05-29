@@ -1,3 +1,6 @@
+body{
+  background-color:#f4f4f4;
+}
 h1, h3 {
   padding: 0;
   margin:  0;
@@ -49,12 +52,11 @@ span.divider {
   border-right: 1px solid #DDDDDD;
 }
 .sidebar {
-  width:        200px;
+  width:        10%;
 }
 
 .content {
-  width:            860px;
-  background-color: #eee;
+  background-color: #fff;
   border-top:       1px solid #DDDDDD;
   border-bottom:    1px solid #DDDDDD;
   vertical-align: top;
@@ -72,8 +74,11 @@ span.divider {
   width: 100%;
 }
 
+.navbar a{
+  font-weight: bold;
+}
+
 .active a {
   font-weight:      bold;
-  background-color: #eee !important;
 }
 

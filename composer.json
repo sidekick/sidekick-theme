@@ -1,10 +1,26 @@
 {
-  "require": {
-    "cubex/cubex":         "*"
+  "name":              "themed/sidekick",
+  "description":       "Sidekick Theme",
+  "version":           "1.0.0",
+  "keywords":          ["cubex", "sidekick", "theme"],
+  "homepage":          "http://cubex.io",
+  "license":           "BSD-3-Clause",
+  "authors":           [
+    {
+      "name":     "oke",
+      "email":    "brooke@bajb.net",
+
+    }
+  ],
+  "require":           {
+    "php":                   ">=5.4.0",
+    "cubex/cubex":           "*",
+
   },
-  "autoload": {
+  "autoload":          {
     "psr-0": {
-      "Cubex\\": "C:\\Websites\\qbex\\Cubex\\src\\"
+
+      "Themed\\Sidekick\\": "src/"
     }
   },
   "minimum-stability": "dev"
