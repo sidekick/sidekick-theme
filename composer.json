@@ -13,9 +13,7 @@
     }
   ],
   "require":           {
-    "php":                   ">=5.4.0",
-    "cubex/cubex":           "*"
-
+    "php":                   ">=5.4.0"
   },
   "autoload":          {
     "psr-0": {
