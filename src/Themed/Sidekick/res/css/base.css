@@ -1,6 +1,8 @@
-body{
-  background-color:#f4f4f4;
+body {
+  background-color: #f4f4f4;
+  font:             13px "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
 }
+
 h1, h3 {
   padding: 0;
   margin:  0;
@@ -47,34 +49,86 @@ span.divider {
   padding: 10px;
 }
 
-.sidebar, .content {
-  display: table-cell;
-  border-right: 1px solid #DDDDDD;
-}
-.sidebar {
-  width:        10%;
-}
-
-.content {
-  background-color: #fff;
-  border-top:       1px solid #DDDDDD;
-  border-bottom:    1px solid #DDDDDD;
-  vertical-align: top;
-
-}
-
 .footer {
   margin-top: 30px;
-  text-align: center;
   border-top: 1px solid #ddd;
   padding:    10px;
+}
+
+.navbar-inverse #sidekick-header {
+  background: url('nav_texture.png') repeat-x;
+  color:      #FFF;
+}
+
+#sidekick-header {
+  height: 42px;
+}
+
+#sidekick-header .navbar-text {
+  line-height: 42px;
+}
+
+#sidekick-header li {
+  line-height: 22px;
+}
+
+.navbar-inverse #sidekick-header .nav .active > a,
+.navbar-inverse #sidekick-header .nav .active > a:hover,
+.navbar-inverse #sidekick-header .nav .active > a:focus {
+  background-color: #464646;
+}
+
+#sidekick-page {
+  width:  1200px;
+  margin: 0 auto;
 }
 
 .nav-tabs {
   width: 100%;
 }
 
-.navbar a{
+.nav-tabs li.active {
   font-weight: bold;
 }
 
+#sidebar {
+  padding-top: 10px;
+  width:       200px;
+  float:       left;
+}
+
+#sidekick-content {
+  background-color: #fff;
+  border:           1px solid #C7C7C7;
+  border-top:       0;
+  width:            960px;
+  padding:          10px 15px 10px 25px;
+  margin-left:      200px;
+}
+
+#content {
+  overflow: hidden;
+}
+
+#sidebar .nav-tabs {
+  border-right: 1px solid #C7C7C7;
+}
+
+#sidebar .tabs-left > .nav-tabs > li > a:hover,
+#sidebar .tabs-left > .nav-tabs > li > a:focus {
+  border-color: transparent;
+  background:   transparent;
+  border-right: 1px solid #C7C7C7;
+}
+
+#sidebar .tabs-left > .nav-tabs .active > a,
+#sidebar .tabs-left > .nav-tabs .active > a:hover,
+#sidebar .tabs-left > .nav-tabs .active > a:focus {
+  border-color:        #C7C7C7 transparent #C7C7C7 #C7C7C7;
+  *border-right-color: #ffffff;
+  background:          #FFFFFF;
+}
+
+#sidebar .nav-tabs > li > a {
+  line-height: normal;
+}

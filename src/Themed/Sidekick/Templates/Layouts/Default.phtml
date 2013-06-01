@@ -3,46 +3,38 @@
  * @var \Cubex\View\Layout $this
  */
 ?>
-<div style="margin-bottom:10px;">
-  <!--  Navbar-->
-  <div class="navbar navbar-static-top navbar-inverse">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="muted brand" href="/">Sidekick</a>
-        <?php echo $this->renderNest("header"); ?>
+<!--  Navbar-->
+<div class="navbar navbar-static-top navbar-inverse">
+  <div class="navbar-inner" id="sidekick-header">
+    <div class="container">
+      <a class="muted brand" href="/">Sidekick</a>
+      <?php echo $this->renderNest("header"); ?>
 
-        <div class="nav-collapse collapse">
-          <ul class="nav pull-right">
-            <li><a href="/profile">John Doe</a></li>
-            <li><a href="/logout">Logout</a></li>
-          </ul>
+      <div class="nav-collapse collapse">
+        <ul class="nav pull-right">
+          <li><a href="/profile">John Doe</a></li>
+          <li><a href="/logout">Logout</a></li>
+        </ul>
 
-        </div>
       </div>
     </div>
   </div>
-  <!--Navbar-->
 </div>
 <div class="clearfix"></div>
+<!--Navbar-->
 
-<div class="container">
-  <div style="display: table-row;">
-      <div class="sidebar">
-        <?php echo $this->renderNest("sidebar", false); ?>
-      </div>
-      <div class="content">
-        <div class="cushion">
-          <?php echo $this->renderNest("content", false); ?>
-        </div>
-      </div>
+<div id="sidekick-page">
+  <div id="sidekick-main">
+    <?php echo $this->renderNest("sidebar"); ?>
+    <div id="sidekick-content">
+      <?php echo $this->renderNest("content"); ?>
       <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <p>Some footer shizzel &copy; 2013</p>
+    </div>
   </div>
 </div>
-
-
-<div class="footer">
-  <div class="container">
-    <p>Some footer shizzel &copy; 2013</p>
-  </div>
-</div>
-
