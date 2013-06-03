@@ -1,5 +1,5 @@
 body {
-  min-width:1200px;
+  min-width:        1200px;
   background-color: #f4f4f4;
   font:             13px "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
 }
@@ -132,4 +132,10 @@ span.divider {
 
 #sidebar .nav-tabs > li > a {
   line-height: normal;
+}
+
+code.pre {
+  overflow-wrap: normal;
+  white-space:   pre;
+  display:       block;
 }
