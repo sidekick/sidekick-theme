@@ -17,7 +17,6 @@ class SidekickTheme extends BaseTheme
 
     $this->requireJsLibrary("jquery");
     $this->requireJsLibrary("bootstrap", "2");
-    $this->requireJsPackage("bootstrap");
     $this->requireJs("/base");
   }
 }
