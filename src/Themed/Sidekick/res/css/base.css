@@ -153,3 +153,25 @@ code.console {
   background-color: #000;
   overflow:         scroll;
 }
+
+.console command {
+  background-color: #222;
+  padding:          3px;
+  margin-top:       10px;
+}
+
+.console .line {
+  margin-bottom: 2px;
+}
+
+.console .line:hover {
+  background-color: #333;
+}
+
+.console .error-bg {
+  background-color: red;
+}
+
+.console .error-text {
+  color: red;
+}
