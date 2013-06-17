@@ -57,12 +57,16 @@ span.divider {
 }
 
 .navbar-inverse #sidekick-header {
-  background: url('nav_texture.png') repeat-x;
-  color:      #FFF;
-}
+  background: #32393d; /* Old browsers */
+  background: -moz-linear-gradient(top,  #32393d 1%, #262b2e 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#32393d), color-stop(100%,#262b2e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #32393d 1%,#262b2e 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #32393d 1%,#262b2e 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #32393d 1%,#262b2e 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #32393d 1%,#262b2e 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32393d', endColorstr='#262b2e',GradientType=0 ); /* IE6-9 */
 
-#sidekick-header {
-  height: 42px;
+  color:      #FFF;
 }
 
 #sidekick-header .navbar-text {
