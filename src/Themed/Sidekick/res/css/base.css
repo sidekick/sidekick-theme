@@ -197,3 +197,21 @@ code.console {
 .console .error-text {
   color: red;
 }
+
+.console .running-text {
+  color: #ade0ef;
+}
+
+.console .command-title .control {
+  background-color: #222;
+  border-radius:    10px;
+  width:            7px;
+  height:           8px;
+  display:          inline-block;
+  text-align:       center;
+  line-height:      8px;
+  overflow:         hidden;
+  padding:          1px 2px;
+  color:            #fff;
+  border:           1px solid #111;
+}
