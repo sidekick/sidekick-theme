@@ -101,6 +101,11 @@ span.divider {
   display: block;
 }
 
+.navbar-inverse #sidekick-header ul.dropdown-menu {
+  top: 40px;
+  margin: 2px 5px 0;
+}
+
 #sidekick-page {
   width:  1200px;
   margin: 42px auto 0 auto;
