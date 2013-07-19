@@ -97,6 +97,10 @@ span.divider {
   background-color: #464646;
 }
 
+.navbar-inverse #sidekick-header .nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
 #sidekick-page {
   width:  1200px;
   margin: 42px auto 0 auto;
