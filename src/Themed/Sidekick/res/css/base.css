@@ -102,7 +102,7 @@ span.divider {
 }
 
 .navbar-inverse #sidekick-header ul.dropdown-menu {
-  top: 40px;
+  top:    40px;
   margin: 2px 5px 0;
 }
 
@@ -130,7 +130,7 @@ span.divider {
   border:           1px solid #C7C7C7;
   border-top:       0;
   width:            960px;
-  padding:          10px 15px 10px 25px;
+  padding:          15px;
   margin-left:      200px;
 }
 
