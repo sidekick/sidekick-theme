@@ -1,5 +1,4 @@
 body {
-  min-width:        1200px;
   background-color: #f4f4f4;
   font:             13px "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif;
 }
@@ -107,7 +106,6 @@ span.divider {
 }
 
 #sidekick-page {
-  width:  1200px;
   margin: 42px auto 0 auto;
 }
 
@@ -120,7 +118,6 @@ span.divider {
 }
 
 #sidebar {
-  padding-top: 10px;
   width:       200px;
   float:       left;
 }
@@ -129,9 +126,8 @@ span.divider {
   background-color: #fff;
   border:           1px solid #C7C7C7;
   border-top:       0;
-  width:            960px;
   padding:          15px;
-  margin-left:      200px;
+  overflow:         hidden;
 }
 
 #content {
