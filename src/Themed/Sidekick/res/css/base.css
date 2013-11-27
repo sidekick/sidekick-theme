@@ -105,6 +105,10 @@ span.divider {
   margin: 2px 5px 0;
 }
 
+#sidekick-main {
+  overflow: hidden;
+}
+
 #sidekick-page {
   margin: 42px auto 0 auto;
 }
